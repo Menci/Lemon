@@ -22,6 +22,8 @@
 #include "settings.h"
 #include "testcase.h"
 
+#include <QAction>
+
 TestCaseEditWidget::TestCaseEditWidget(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::TestCaseEditWidget)

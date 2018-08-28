@@ -23,6 +23,8 @@
 #include "settings.h"
 #include "compiler.h"
 
+#include <QAction>
+
 CompilerSettings::CompilerSettings(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::CompilerSettings)
